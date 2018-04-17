@@ -8,6 +8,9 @@ var cors = require('cors')
 
 var indexRouter = require('./routes/index');
 
+
+console.log(process.env);
+
 var app = express();
 
 app.use(cors());
