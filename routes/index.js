@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send({
       success: true,
-      data: 'Hello, world!'
+      data: process.env.DATA
   })
 });
 
