@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"        : "cdjs-example-backend",
+    "script"      : "./bin/www",
+    "env": {
+      "PORT": 5001
+    }
+  }]
+}
